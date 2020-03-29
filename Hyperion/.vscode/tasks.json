@@ -1,0 +1,24 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Hyperion",
+            "type": "shell",
+            "command": "..\\x64\\Debug\\Hyperion.exe",
+            "dependsOn": [
+                "Compile Shaders"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile Shaders",
+            "type": "shell",
+            "command": "shaders\\compile.bat"
+        }
+    ]
+}
