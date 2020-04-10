@@ -16,10 +16,37 @@
     <Filter Include="Source Files\shaders">
       <UniqueIdentifier>{616cd916-a152-4005-90da-e039c257ab24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{f7465314-a55f-4743-ba7c-5a0bb5fdc0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\graphics">
+      <UniqueIdentifier>{f11f4633-8061-4a22-8198-89488787a347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\math">
+      <UniqueIdentifier>{c0aa7918-2c98-46de-a300-e5013e212092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{1dd8aa5e-5153-4339-9fa3-d49ccf63fc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data">
+      <UniqueIdentifier>{b90f98d3-a38a-4f60-b53c-a8417259403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{7c2d19ec-b72c-4552-a351-732c740a4bca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Resource Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Resource Files\data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +56,25 @@
     <None Include="..\shaders\shader.frag">
       <Filter>Source Files\shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
