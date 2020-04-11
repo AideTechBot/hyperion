@@ -48,6 +48,9 @@
     <ClCompile Include="ModelLoader.cpp">
       <Filter>Resource Files\data</Filter>
     </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\shaders\shader.vert">
@@ -56,6 +59,7 @@
     <None Include="..\shaders\shader.frag">
       <Filter>Source Files\shaders</Filter>
     </None>
+    <None Include="config.toml" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameWindow.h">
@@ -75,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="FileLoader.h">
       <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -17,7 +17,13 @@ void GameWindow::initWindow()
 
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 
-    window_ = glfwCreateWindow(WIDTH, HEIGHT, "Vulkan", nullptr, nullptr);
+    window_ = glfwCreateWindow(
+        Configuration::getInstance().getWindowWidth(),
+        Configuration::getInstance().getWindowHeight(),
+        "Vulkan",
+        nullptr,
+        nullptr
+    );
     glfwSetWindowUserPointer(window_, this);
     glfwSetFramebufferSizeCallback(window_, framebufferResizeCallback);
 }

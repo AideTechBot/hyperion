@@ -4,6 +4,7 @@
 
 int main() {
     try {
+        Configuration::getInstance().load();
 		GameWindow app;
     }
     catch (const std::exception & e) {
