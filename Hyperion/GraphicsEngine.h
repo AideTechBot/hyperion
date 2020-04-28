@@ -2,6 +2,7 @@
 #include "Vertex.h"
 #include "FileLoader.h"
 #include "ModelLoader.h"
+#include "Camera.h"
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
@@ -71,7 +72,7 @@ struct SwapChainSupportDetails {
 
 class GraphicsEngine {
 public:
-    GraphicsEngine(GLFWwindow* window);
+    GraphicsEngine(GLFWwindow* window, Camera* camera);
 
     void drawFrame();
 
@@ -82,6 +83,7 @@ public:
     void cleanup();
 private:
     GLFWwindow* window_;
+    Camera* currentCamera_;
 	
     VkInstance instance_{};
     VkDebugUtilsMessengerEXT debugMessenger_{};

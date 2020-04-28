@@ -51,6 +51,9 @@
     <ClCompile Include="Configuration.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Resource Files\graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\shaders\shader.vert">
@@ -82,6 +85,9 @@
     </ClInclude>
     <ClInclude Include="Configuration.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\graphics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
