@@ -1,5 +1,7 @@
 #pragma once
 #include "toml.hpp"
+#define LOGURU_WITH_STREAMS 1
+#include "loguru.hpp"
 
 #include <string>
 

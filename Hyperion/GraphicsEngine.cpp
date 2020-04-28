@@ -29,6 +29,7 @@ GraphicsEngine::GraphicsEngine(GLFWwindow* window, Camera* camera):
 	window_(window),
 	currentCamera_(camera)
 {
+    LOG_S(INFO) << "Creating graphics engine";
 	createInstance();
 	setupDebugMessenger();
 	createSurface();

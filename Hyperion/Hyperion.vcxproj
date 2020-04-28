@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\VulkanMemoryAllocator\src;C:\Users\manim\Documents\Visual Studio 2019\Libraries\loguru-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\VulkanMemoryAllocator\src;C:\Users\manim\Documents\Visual Studio 2019\Libraries\loguru-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -122,7 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\VulkanMemoryAllocator\src;C:\Users\manim\Documents\Visual Studio 2019\Libraries\loguru-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -142,7 +142,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\manim\Documents\Visual Studio 2019\Libraries\VulkanMemoryAllocator\src;C:\Users\manim\Documents\Visual Studio 2019\Libraries\loguru-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\toml11-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\tinyobjloader-master;C:\Users\manim\Documents\Visual Studio 2019\Libraries\stb;C:\VulkanSDK\1.1.126.0\Include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\manim\Documents\Visual Studio 2019\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
